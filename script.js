@@ -5,7 +5,7 @@ function loco(){
 
 const locoScroll = new LocomotiveScroll({
 el: document.querySelector("#main"),
-smooth: true
+smooth: false
 });
 // each time Locomotive Scroll updates, tell ScrollTrigger to update too (sync positioning)
 locoScroll.on("scroll", ScrollTrigger.update);
@@ -544,4 +544,3 @@ gsap.to("#page23>img",{
   },
   opacity:1
 })
-
