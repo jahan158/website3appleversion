@@ -743,8 +743,8 @@ position: absolute;
 }
 
 #center-page23{
-    height: 100vh;
-    width: 100vw;
+    height: 20vh;
+    width: 20vw;
     position: relative;
     display: flex;
     justify-content: center;
@@ -755,28 +755,33 @@ position: absolute;
 
 #center-page23>h2 {
 margin-bottom: 1vw;
-font-size: 1vw;
+font-size: 1.8vw;
 color: aliceblue;
-bottom: 25%;
+bottom: 280%;
 position: absolute;
+left: 180%;
+width: 200%;
 }
 
 #center-page23>p {
-    width: 40%;
-    font-size: 1vw;
+    width: 170%;
+    font-size: 1.3vw;
     color: aliceblue;
     position: absolute;
     line-height: 1;
-    font-weight: 100;
-    bottom: 9%;
+    font-weight: 500;
+    bottom: 170%;
+    left: 190%;
 }
 
 #center-page23>button {
     position: absolute;
-    bottom: 5%;
+    bottom: 130%;
+    left: 200%;
+    width: 130%;
     padding: 10px 20px;
     font-size: 1vw;
-    border-radius: 50px;
+    border-radius: 20px;
     background-color: #ff823d;
     color: #fff;
     font-weight: 500;
@@ -784,8 +789,8 @@ position: absolute;
 }
 
 #footer {
-    height: 40vh;
-    width: 100%;
+    height: 20vh;
+    width: 20vw;
     background-color: #fff;
     position: relative;
     display: flex;
@@ -793,6 +798,12 @@ position: absolute;
     justify-content: flex-start;
     padding: 0 100px;
     text-align: center;
+}
+
+#f{
+    height: 50%;
+    width: 50%;
+    background-color: #fff;
 }
 
 #f>p{
@@ -810,7 +821,7 @@ position: absolute;
 }
 
 #f1,#f2,#f3,#f4 h2{
-    font-size: 30px;
+    font-size: 10px;
     white-space: nowrap;
     color: black; 
     font-weight: 800;
@@ -818,7 +829,7 @@ position: absolute;
 }
 
 #f1,#f2,#f3,#f4 h3{
-    font-size: 30px;
+    font-size: 10px;
     white-space: nowrap;
     color: black; 
     font-weight: 800;
